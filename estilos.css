@@ -1,0 +1,43 @@
+body{
+    background-color: darkgray;
+}
+.fondo{
+    background-color: red;
+
+}
+.miTexto {
+    font-size: 80px;
+    color: rgb(194, 26, 228);
+}
+.logo{
+    width: 700px;
+    
+}
+.title{
+    font-size: 3em;
+    color: aqua;
+}
+.cards{
+    border: 2px solid brown;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 2%;
+    transition: 1ms;
+}
+.cards:hover{
+    background-color: rgb(73, 72, 119)
+}
+#principal{
+    font-size: 50px;
+}
+p{
+    font-size: 16px;
+    color: #a305ff;
+}
+
+#titulos{
+    border: 2px solid blueviolet;
+    width: 60vw;
+    margin: auto;
+    padding: 4em;
+}

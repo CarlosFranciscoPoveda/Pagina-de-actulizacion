@@ -3,41 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Este es el formulario de contacto</h1>
+        <h1 class="title" id="principal">Este es el formulario de contacto</h1>
     </header>
     <main>
-        <div>
-            <h2>
+        <div class="cards">
+            <h2 class="title">
                 Este es un formulario para que puedas contactarnos
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, esse. Minus sunt dolorem omnis beatae, impedit tempora facere quos inventore eveniet, incidunt autem ut. Aliquam tempore ducimus culpa ea id!
             </p>
-        </div>
+        </div class="cards">
 
         <form>
-            <div>
+            <div class="cards">
             <!-- <input type="text" name="nombre" placeholder="Nombre"/> hacer un comentarios es ctrl K+C -->
             <label for="nombre" >Nombre: </label>
             <input type="text" name="nombre" />
-        </div>
-        <div>
+        </div class="cards">
+        <div class="cards">
             <label for="Apellido">Apellido: </label>
             <input type="text" name="Apellido"  />
-        </div>
+        </div class="cards">
 
-        <div>
+        <div class="cards">
             <label for="edad">Edad: </label>
             <input type="number" name="edad"/>
-        </div>
+        </div class="cards">
         <div>
             <label for="password">Contraseña: </label>
             <input type="password" name="password"/>
-        </div>
+        </div class="cards">
         <button>ENVIAR</button>
         </form>
     </main>
