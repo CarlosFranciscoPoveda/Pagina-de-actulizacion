@@ -1,0 +1,58 @@
+/* reset.css */
+
+/* Elimina márgenes, rellenos y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Elimina los estilos de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Elimina subrayado de enlaces y establece un estilo por defecto */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Elimina el espacio entre tablas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Establece el estilo base para formularios */
+  button, input, select, textarea {
+    font: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  /* Elimina los estilos base de encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  /* Establece un estilo por defecto para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+  }
+  
+  /* Elimina el estilo base de los elementos en bloque */
+  body, html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  

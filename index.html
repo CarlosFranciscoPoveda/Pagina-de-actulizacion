@@ -5,11 +5,12 @@
     <meta name="description" content="Descripción de la página">
     <title>Mi página web</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/reset.css">
 </head>
 <body>
     <header> 
         <h1 class="title">Mi página web</h1>
-        <p>Mi nombre es Carlos Francisco Poveda Cabrera.</p>
+        <p id="titulos">Mi nombre es Carlos Francisco Poveda Cabrera.</p>
         
         <nav>
             <span>Home</span>
@@ -18,17 +19,28 @@
 
     </header>
     <main>
-    
+        <div id="cards-container">
+            <div class="cards">
+                <h4 class="title">ESCRITORIO</h4>
             <img src="./caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg" class="logo"/>
-        
+        </div>
+            <div class="cards">
+                <h4 class="title">ESPACIO</h4>
+            <img src="./red-and-blue-4k-space-0b97s563vz1x1img.jpg" class="logo">
+        </div>
+        <div class="cards">
+            <h4 class="title">DRIVER</h4>
+            <img src="./hq720.jpg" class="logo">
+            </div>
+        </div id="cards-container" >
     </nav>
 
     <section>
         <h2 class="title">Este es el título de una sección de noticias</h2>
             <div id="cards">
                 <h3 class="title">Esta es la noticia N° 1</h3>
-            <p>Este será el primer párrafo de mi noticia.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam, nihil excepturi consequatur dicta vitae perferendis quia veritatis officiis cum sunt corrupti in, eligendi fugiat? Ab consequatur excepturi molestiae earum!</p>
+            <p id="titulos">Este será el primer párrafo de mi noticia.</p>
+            <p id="titulos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquam, nihil excepturi consequatur dicta vitae perferendis quia veritatis officiis cum sunt corrupti in, eligendi fugiat? Ab consequatur excepturi molestiae earum!</p>
         
             </div class="cards">
         </article>
@@ -55,9 +67,9 @@
         
         <article>
             <h3 class="title">Esta es la noticia N° 3</h3>
-            <p>Este listado de cosas importantes no estará ordenado:</p>
-            <p>Linea 1<br>Linea 2</p>
-            <p>Este es un texto con una <span style="color: brown;">palabra en marrón</span>.</p>
+            <p id="titulos">Este listado de cosas importantes no estará ordenado:</p>
+            <p id="titulos">Linea 1<br>Linea 2</p>
+            <p id="titulos">Este es un texto con una <span style="color: brown;">palabra en marrón</span>.</p>
             <ul>
                 <li>Este es un elemento</li>
                 <li>Este es un elemento adicional</li>
@@ -108,15 +120,5 @@
     <a href="./contacto.html">FORMULARIO DE CONTACTO</a>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
 
 </html>

@@ -10,19 +10,25 @@ body{
     color: rgb(194, 26, 228);
 }
 .logo{
-    width: 700px;
+    width: 200px;
+    height: 200px;
     
 }
 .title{
     font-size: 3em;
     color: aqua;
+    
 }
 .cards{
     border: 2px solid brown;
     width: fit-content;
-    padding: 1em 1em 1em 1em;
+    padding: 0.5m 0.5em 0.5em 0.5em;
     border-radius: 2%;
     transition: 1ms;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 .cards:hover{
     background-color: rgb(73, 72, 119)
@@ -40,4 +46,20 @@ p{
     width: 60vw;
     margin: auto;
     padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards-container{
+    background-color: rgb(208, 223, 193);
+    width: 85%;
+    margin: auto;
+    margin-top: 10em;
+    border: 5px solid rgba(204, 160, 160, 0.349);
+    border-radius: 10%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
